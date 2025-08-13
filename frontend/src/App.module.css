@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #0f1117;
+  color: rgba(7, 7, 7, 0);
+  font-family: "Inter", sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: #0f1117 !important;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+

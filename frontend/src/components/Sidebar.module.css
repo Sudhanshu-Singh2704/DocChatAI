@@ -1,0 +1,110 @@
+.sidebar {
+  width: 270px;
+  background: linear-gradient(180deg, #20232e, #15171f);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  border-right: 1px solid #2c2f3a;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.section h3 {
+  font-size: 13px;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.docItem,
+.historyItem {
+  background: #2a2e3b;
+  padding: 6px 8px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.historyItem {
+  gap: 6px;
+}
+
+.docItem:hover,
+.historyItem:hover {
+  background: #353a49;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  color: #aaa;
+}
+
+.deleteIcon:hover {
+  color: #ff5c5c;
+}
+
+.empty {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.newChatBtn {
+  background: #5865f2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: auto;
+  transition: 0.2s;
+}
+
+.newChatBtn:hover {
+  background: #4752c4;
+}
+
+.historyItem {
+  background: #2a2e3b;
+  padding: 6px 8px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.historyText {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.historyItem:hover {
+  background: #353a49;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  color: #aaa;
+  padding: 2px;
+}
+
+.deleteIcon:hover {
+  color: #ff5c5c;
+}
+
+
+
