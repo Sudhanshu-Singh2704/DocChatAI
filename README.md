@@ -28,7 +28,7 @@ DocChat AI is an **AI-powered document interaction platform** that allows users 
 ## ⚙️ Backend Setup (Python + FastAPI)  
 
 ### 1️⃣ Create & Activate Virtual Environment  
-
+```bash
 ## Create venv
 python -m venv .venv
 
